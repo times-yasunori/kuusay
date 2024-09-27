@@ -3,11 +3,11 @@
     "awesome-yasunori": {
       "flake": false,
       "locked": {
-        "lastModified": 1727357906,
-        "narHash": "sha256-ZUJvUoN4/VgIOTobR8sxYHvibyeRcuEDM0Pq/hOXqDo=",
+        "lastModified": 1727441437,
+        "narHash": "sha256-6XFrV46N886+3JRbp9MVzu4Q8p3qqN17SFXLRYw2jxA=",
         "owner": "takeokunn",
         "repo": "awesome-yasunori",
-        "rev": "cb2b648b20b8500c77bc18bc88b480acfd3a524a",
+        "rev": "f97a4d53922f5c143370d00af723edc8edb5983c",
         "type": "github"
       },
       "original": {
