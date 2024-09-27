@@ -18,14 +18,12 @@
 
       perSystem =
         {
-          config,
           pkgs,
           ...
         }:
         {
-          packages = {
-            default = config.packages.kuusay;
-            kuusay = import ./default.nix { inherit pkgs; };
+          packages = import ./. {
+            inherit pkgs;
           };
         };
     };
