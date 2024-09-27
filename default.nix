@@ -10,8 +10,13 @@ rec {
     inherit awesome-yasunori;
     inherit remark-cli;
   };
-  kuusay-yasunori = pkgs.callPackage ./packages/kuusay-yasunori {
-    inherit kuusay yasunori-cli;
+  kuusay-yasunori = pkgs.callPackage ./packages/cowsay-yasunori {
+    cowsay = kuusay;
+    inherit yasunori-cli;
+  };
+  cowsay-yasunori = pkgs.callPackage ./packages/cowsay-yasunori {
+    cowsay = pkgs.neo-cowsay;
+    inherit yasunori-cli;
   };
 
   yousay = pkgs.callPackage ./packages/yousay { cowsay = pkgs.neo-cowsay; };
