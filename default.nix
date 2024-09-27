@@ -13,4 +13,6 @@ rec {
   kuusay-yasunori = pkgs.callPackage ./packages/kuusay-yasunori {
     inherit kuusay yasunori-cli;
   };
+
+  yousay = pkgs.callPackage ./packages/yousay { cowsay = pkgs.neo-cowsay; };
 }
