@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "awesome-yasunori": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727357906,
+        "narHash": "sha256-ZUJvUoN4/VgIOTobR8sxYHvibyeRcuEDM0Pq/hOXqDo=",
+        "owner": "takeokunn",
+        "repo": "awesome-yasunori",
+        "rev": "cb2b648b20b8500c77bc18bc88b480acfd3a524a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "takeokunn",
+        "repo": "awesome-yasunori",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": "nixpkgs-lib"
@@ -48,6 +64,7 @@
     },
     "root": {
       "inputs": {
+        "awesome-yasunori": "awesome-yasunori",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs"
       }

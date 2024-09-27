@@ -4,6 +4,10 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    awesome-yasunori = {
+      url = "github:takeokunn/awesome-yasunori";
+      flake = false;
+    };
   };
 
   outputs =
@@ -24,6 +28,7 @@
         {
           packages = import ./. {
             inherit pkgs;
+            inherit (inputs) awesome-yasunori;
           };
         };
     };
