@@ -24,4 +24,5 @@ rec {
     cowsay = yousay;
     inherit yasunori-cli;
   };
+  nikuussay = pkgs.callPackage ./packages/nikuussay { cowsay = pkgs.neo-cowsay; };
 }
