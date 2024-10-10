@@ -3,10 +3,10 @@
 ## usage
 
 ```
-$ nix run github:natsukium/kuusay -- evenな言い分
- ______________ 
+$ nix run github:times-yasunori/kuusay -- evenな言い分
+ ______________
 < evenな言い分 >
- -------------- 
+ --------------
    \
     \
        .n.
@@ -30,10 +30,10 @@ $ nix run github:natsukium/kuusay -- evenな言い分
 ```
 
 ```
-$ nix run github:natsukium/kuusay/yasunori#kuusay-yasunori
- _____________________________________ 
+$ nix run github:times-yasunori/kuusay/yasunori#kuusay-yasunori
+ _____________________________________
 < たけてぃ「yasunori は俺の夢だから」 >
- ------------------------------------- 
+ -------------------------------------
    \
     \
        .n.
