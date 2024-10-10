@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     awesome-yasunori = {
-      url = "github:takeokunn/awesome-yasunori";
+      url = "github:times-yasunori/awesome-yasunori";
       flake = false;
     };
   };

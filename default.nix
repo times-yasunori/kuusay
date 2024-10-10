@@ -1,6 +1,6 @@
 {
   pkgs ? import <nixpkgs> { },
-  awesome-yasunori ? builtins.fetchTarball "https://github.com/takeokunn/awesome-yasunori/archive/main.tar.gz",
+  awesome-yasunori ? builtins.fetchTarball "https://github.com/times-yasunori/awesome-yasunori/archive/main.tar.gz",
 }:
 rec {
   kuusay = pkgs.callPackage ./packages/kuusay { cowsay = pkgs.neo-cowsay; };
