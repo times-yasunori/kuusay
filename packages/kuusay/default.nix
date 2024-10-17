@@ -5,8 +5,11 @@
   cowsay,
 }:
 
-stdenv.mkDerivation (finalAttrs: {
+let
   pname = "kuusay";
+in
+stdenv.mkDerivation (finalAttrs: {
+  inherit pname;
   version = "1.0.0";
 
   src = lib.cleanSource ./.;
@@ -25,5 +28,6 @@ stdenv.mkDerivation (finalAttrs: {
 
     runHook postInstall
   '';
+
 
 })
