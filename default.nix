@@ -5,7 +5,7 @@
 rec {
   kuusay = pkgs.callPackage ./packages/kuusay { cowsay = pkgs.neo-cowsay; };
   default = kuusay;
-  yasunori-cli = pkgs.callPackage ./packages/yasunori-cli {
+  yasunori-cli = pkgs.callPackage "${awesome-yasunori}/nix/packages/yasunori-cli" {
     inherit awesome-yasunori;
   };
   kuusay-yasunori = pkgs.callPackage ./packages/cowsay-yasunori {

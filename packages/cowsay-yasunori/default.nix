@@ -7,6 +7,6 @@
 writeShellApplication {
   name = "${cowsay.pname}-yasunori";
   text = ''
-    ${yasunori-cli} | ${lib.getExe cowsay}
+    ${lib.getExe yasunori-cli} | ${lib.getExe cowsay};
   '';
 }
